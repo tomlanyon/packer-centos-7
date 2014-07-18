@@ -1,7 +1,7 @@
 {
   "builders": [
     {
-      "vm_name": "centos7.0",
+      "vm_name": "centos7-minimal",
       "guest_os_type": "RedHat_64",
       "iso_checksum_type": "md5",
       "iso_checksum": "96de4f38a2f07da51831153549c8bd0c",
@@ -50,7 +50,7 @@
     {
       "type": "vagrant",
       "compression_level": 9,
-      "output": "centos7.0.box"
+      "output": "centos-7-minimal.box"
     }
   ]
 }
